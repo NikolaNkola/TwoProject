@@ -16,6 +16,7 @@
 		C34C922616B34C6400396C49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34C922516B34C6400396C49 /* ViewController.m */; };
 		C34C922916B34C6400396C49 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34C922716B34C6400396C49 /* ViewController_iPhone.xib */; };
 		C34C922C16B34C6400396C49 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34C922A16B34C6400396C49 /* ViewController_iPad.xib */; };
+		C34C923516B34D7700396C49 /* AppDelegate_Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = C34C923416B34D7700396C49 /* AppDelegate_Shared.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		C34C922516B34C6400396C49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C34C922816B34C6400396C49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		C34C922B16B34C6400396C49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		C34C923316B34D7700396C49 /* AppDelegate_Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_Shared.h; sourceTree = "<group>"; };
+		C34C923416B34D7700396C49 /* AppDelegate_Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_Shared.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,7 @@
 		C34C920316B34C6300396C49 = {
 			isa = PBXGroup;
 			children = (
+				C34C923216B34D5900396C49 /* Shared */,
 				C34C921816B34C6400396C49 /* TwoProject */,
 				C34C921116B34C6400396C49 /* Frameworks */,
 				C34C920F16B34C6400396C49 /* Products */,
@@ -99,6 +103,15 @@
 				C34C922016B34C6400396C49 /* TwoProject-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C34C923216B34D5900396C49 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C34C923316B34D7700396C49 /* AppDelegate_Shared.h */,
+				C34C923416B34D7700396C49 /* AppDelegate_Shared.m */,
+			);
+			name = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +180,7 @@
 				C34C921F16B34C6400396C49 /* main.m in Sources */,
 				C34C922316B34C6400396C49 /* AppDelegate.m in Sources */,
 				C34C922616B34C6400396C49 /* ViewController.m in Sources */,
+				C34C923516B34D7700396C49 /* AppDelegate_Shared.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
