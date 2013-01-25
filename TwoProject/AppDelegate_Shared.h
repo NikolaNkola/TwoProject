@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RootViewController.h"
 
-@interface AppDelegate_Shared : UIResponder
+@interface AppDelegate_Shared : UIResponder{
+    RootViewController* _rootViewController;
+}
+
+@property (retain, nonatomic) IBOutlet UIWindow* window;
+@property (retain, nonatomic) RootViewController* rootViewcontroller;
 
 @end

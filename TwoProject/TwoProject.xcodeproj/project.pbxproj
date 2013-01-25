@@ -17,6 +17,7 @@
 		C34C922916B34C6400396C49 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34C922716B34C6400396C49 /* ViewController_iPhone.xib */; };
 		C34C922C16B34C6400396C49 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34C922A16B34C6400396C49 /* ViewController_iPad.xib */; };
 		C34C923516B34D7700396C49 /* AppDelegate_Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = C34C923416B34D7700396C49 /* AppDelegate_Shared.m */; };
+		C34C924016B34E9500396C49 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34C923F16B34E9500396C49 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		C34C922B16B34C6400396C49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		C34C923316B34D7700396C49 /* AppDelegate_Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_Shared.h; sourceTree = "<group>"; };
 		C34C923416B34D7700396C49 /* AppDelegate_Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_Shared.m; sourceTree = "<group>"; };
+		C34C923E16B34E9500396C49 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C34C923F16B34E9500396C49 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 			children = (
 				C34C923316B34D7700396C49 /* AppDelegate_Shared.h */,
 				C34C923416B34D7700396C49 /* AppDelegate_Shared.m */,
+				C34C923E16B34E9500396C49 /* RootViewController.h */,
+				C34C923F16B34E9500396C49 /* RootViewController.m */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				C34C922316B34C6400396C49 /* AppDelegate.m in Sources */,
 				C34C922616B34C6400396C49 /* ViewController.m in Sources */,
 				C34C923516B34D7700396C49 /* AppDelegate_Shared.m in Sources */,
+				C34C924016B34E9500396C49 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				C34C923116B34C6400396C49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

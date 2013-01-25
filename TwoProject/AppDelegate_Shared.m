@@ -10,4 +10,14 @@
 
 @implementation AppDelegate_Shared
 
+@synthesize window;
+@synthesize rootViewcontroller = _rootViewController;
+
+
+- (void)dealloc {
+    [window release];
+    [_rootViewController release];
+    [super dealloc];
+}
+
 @end
